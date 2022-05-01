@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: gray;
+    word-wrap: break-word;
+}
+
+.comments {
+    height: 250px;
+    width: 500px;
+    margin-top: 20px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    align-items: right;
+    text-align: right;    
+    margin-top: 10px;
+}
+
+.submit {
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: lightblue;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+}
+
